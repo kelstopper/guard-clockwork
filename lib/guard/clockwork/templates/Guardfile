@@ -1,3 +1,3 @@
 guard 'clockwork', clockfile: 'config/clock.rb' do
-  watch(%r{^workers/(.+)\.rb$})
+  watch(%r{^app/workers/(.+)\.rb$})
 end

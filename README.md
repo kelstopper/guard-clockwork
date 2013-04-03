@@ -30,7 +30,7 @@ Please read [Guard usage doc](http://github.com/guard/guard#readme).
 ## Guardfile
 
 guard 'clockwork', clockfile: 'config/clock.rb'  do
-  watch(%r{^workers/(.+)\.rb})
+  watch(%r{^app/workers/(.+)\.rb})
 end
 
 ## Options

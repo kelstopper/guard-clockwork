@@ -1,6 +1,6 @@
 require 'guard'
 require 'guard/guard'
-require 'guard/clockwok/version'
+require 'guard/clockwork/version'
 
 module Guard
   class Clockwork < Guard

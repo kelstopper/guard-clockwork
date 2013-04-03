@@ -1,5 +1,5 @@
 module Guard
-  module Clockwork
-    VERSION = '0.0.3'
+  module ClockworkVersion
+    VERSION = '0.0.6'
   end
 end

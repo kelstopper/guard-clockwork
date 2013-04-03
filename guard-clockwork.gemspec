@@ -5,7 +5,7 @@ require 'guard/clockwork/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'guard-clockwork'
-  spec.version       = Guard::Clockwork::VERSION
+  spec.version       = Guard::ClockworkVersion::VERSION
   spec.authors       = ['Moonsik Kang']
   spec.email         = %w(byblue@gmail.com)
   spec.description   = %q{guard gem for clockwork}
