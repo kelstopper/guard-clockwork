@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = %w(lib)
 
-  spec.add_dependency 'guard', '>= 1.1'
+  spec.add_dependency 'guard', '>= 2.0'
   spec.add_dependency 'clockwork'
 
   spec.add_development_dependency 'bundler', '~> 1.3'

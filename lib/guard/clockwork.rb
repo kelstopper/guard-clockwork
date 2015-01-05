@@ -1,9 +1,9 @@
 require 'guard'
-require 'guard/guard'
+require 'guard/plugin'
 require 'guard/clockwork/version'
 
 module Guard
-  class Clockwork < Guard
+  class Clockwork < Plugin
     DEFAULT_CLOCKFILE = 'config/clock.rb'
 
     def initialize(watchers = [], options = {})
