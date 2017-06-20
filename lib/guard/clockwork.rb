@@ -6,7 +6,7 @@ module Guard
   class Clockwork < Plugin
     DEFAULT_CLOCKFILE = 'config/clock.rb'
 
-    def initialize(watchers = [], options = {})
+    def initialize(options = {})
       @options = options
       @pid = nil
       @clockfile = options[:clockfile] || DEFAULT_CLOCKFILE
